@@ -32,9 +32,10 @@ function login1() {
         navbar.style.display = ("flex");
     }
     else {
-        email.style.borderColor = "red"
-        password.style.borderColor = "red"
+        email.style.borderColor = ("red")
+        Password.style.borderColor = "red"
         alert("code xato")
+
 
     }
 }
