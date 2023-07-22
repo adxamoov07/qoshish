@@ -22,7 +22,7 @@ function qaytish () {
 }
 
 let logineEmail = "hokim"
-let loginePassword = "19825800"
+let loginePassword = "5800"
 
 function login1() {
     if (email.value == logineEmail && password.value == loginePassword) {
@@ -32,8 +32,11 @@ function login1() {
         navbar.style.display = ("flex");
     }
     else {
-        email.style.borderColor = ("red")
+        email.style.borderColor = "red"
         Password.style.borderColor = "red"
+        email.style.outLine = "red"
+        Password.style.ouLline = "red"
+        
         alert("code xato")
 
 
