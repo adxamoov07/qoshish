@@ -29,10 +29,14 @@
     color: white;
 }
 
+.parol_item:hover{
+    background-color: aqua;
+}
+
 .parol_item>input{
     width: 90%;
     height: 40px;
-    background-color: #ffffff4f;
+    background-color: #ffffff6a;
     border-radius: 20px;
     border: none;
     padding: 0 20px;
@@ -42,11 +46,11 @@
 }
 
 .parol_item>input:focus{
-    background-color: rgba(0, 128, 0, 0.722);
+    background-color: rgba(0, 128, 0, 0.666);
 }
 
 .parol_item>input::placeholder{
-    color: rgb(128, 185, 128);
+    color: rgb(37, 182, 195);
 }
 
 .parol_item>button{
