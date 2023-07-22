@@ -5,6 +5,66 @@
     font-family: sans-serif;
 }
 
+.parol{
+    width: 100vw;
+    height: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+}
+
+.parol_item{
+    width: 320px;
+    height: 400px;
+    background-image: url(./img/photo_2023-07-22_13-52-53.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.parol_item>input{
+    width: 90%;
+    height: 40px;
+    background-color: #ffffff24;
+    border-radius: 20px;
+    border: none;
+    outline: green 2px solid;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.parol_item>input:focus{
+    background-color: rgba(0, 128, 0, 0.722);
+}
+
+.parol_item>input::placeholder{
+    color: rgb(128, 185, 128);
+}
+
+.parol_item>button{
+    width: 90%;
+    height: 35px;
+    background-image: linear-gradient(to top right, skyblue,  dodgerblue,  blue);
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.parol_item>button:active{
+    background-color: dodgerblue;
+}
+
+
+
 header{
     width: 100vw;
     height: 70px;
@@ -13,6 +73,7 @@ header{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    display: none ;
 }
 
 header .box{
@@ -59,6 +120,7 @@ table {
     text-align: center;
     border-collapse: collapse;
     background-color: blueviolet;
+    display: none;
 }
 
 table thead tr th {
