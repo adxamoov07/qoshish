@@ -70,18 +70,19 @@ function ele() {
     
     div.appendChild(sox1)
     sox1.appendChild(soz1)
-     
+    soz1.innerText = bx1.value;
     div.appendChild(sox2)
     sox2.appendChild(soz2)
-
+    soz2.innerText = bx2.value;
     div.appendChild(sox3)
     sox3.appendChild(soz3)
-
+    soz3.innerText = bx3.value;
     div.appendChild(sox4)
     sox4.appendChild(soz4)
-
+    soz4.innerText = bx4.value;
     div.appendChild(sox5)
     sox5.appendChild(soz5)
+    soz5.innerText = bx5.value;
 
 
 }
@@ -96,7 +97,7 @@ let loginePassword = "5800"
 function login1() {
     if (email.value == logineEmail && password.value == loginePassword) {
         parol.style.display = ("none");
-        table.style.display = ("block");
+        table.style.display = ("flex");
         banner.style.display = ("none");
         navbar.style.display = ("flex");
     }

@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-.parol{
+.parol {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -13,10 +13,9 @@
     justify-content: center;
     background-image: url(./img/img1.jpg);
     background-size: cover;
-    display: none;
 }
 
-.parol_item{
+.parol_item {
     width: 320px;
     height: 400px;
     background-color: rgba(16, 94, 98, 0.956);
@@ -30,11 +29,11 @@
     color: white;
 }
 
-.parol_item:hover{
+.parol_item:hover {
     background-color: rgba(51, 231, 244, 0.942);
 }
 
-.parol_item>input{
+.parol_item>input {
     width: 90%;
     height: 40px;
     background-color: #ffffff6a;
@@ -47,31 +46,31 @@
     border-bottom: 5px solid rgb(6, 66, 125);
 }
 
-.parol_item>input:focus{
+.parol_item>input:focus {
     background-color: rgba(0, 128, 0, 0.666);
 }
 
-.parol_item>input::placeholder{
+.parol_item>input::placeholder {
     color: rgb(25, 35, 35);
 }
 
-.parol_item>button{
+.parol_item>button {
     width: 90%;
     height: 35px;
-    background-image: linear-gradient(to top right, skyblue,  dodgerblue,  blue);
+    background-image: linear-gradient(to top right, skyblue, dodgerblue, blue);
     border-radius: 20px;
     border: 2px solid #fff;
     color: #fff;
 }
 
-.parol_item>button:active{
+.parol_item>button:active {
     background-color: dodgerblue;
     border: green 1px solid;
 }
 
 
 
-header{
+header {
     width: 100vw;
     height: 70px;
     background-color: rgba(245, 222, 179, 0.51);
@@ -79,9 +78,10 @@ header{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    display: none;
 }
 
-header .box{
+header .box {
     width: 70%;
     height: 40px;
     background-color: #fff;
@@ -93,7 +93,7 @@ header .box{
     justify-content: space-between;
 }
 
-header .box input{
+header .box input {
     width: 80%;
     height: 100%;
     font-size: 20px;
@@ -101,7 +101,7 @@ header .box input{
     outline: none;
 }
 
-.div{
+.div {
     width: 17%;
     height: 40px;
     background-color: skyblue;
@@ -113,37 +113,39 @@ header .box input{
     border: 2px solid green;
     color: green;
 }
-.div:hover{
+
+.div:hover {
     background-color: green;
     color: #fff;
 }
 
 
 
-.table{
+.table {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px 0;
+    display: none;
 }
 
-.table_box{
+.table_box {
     width: 80%;
-    height: 100%;
+    height: auto;
     background-color: rgb(30, 255, 113);
 }
 
-.table_navbar{
+.table_navbar {
     width: 100%;
     height: 70px;
     background-color: red;
     display: flex;
 }
 
-.navbar_box1{
+.navbar_box1 {
     width: 10%;
     height: 100%;
     background-color: #fff;
@@ -154,7 +156,7 @@ header .box input{
     color: red;
 }
 
-.navbar_box{
+.navbar_box {
     width: 18%;
     height: 100%;
     background-color: #fff;
@@ -163,17 +165,17 @@ header .box input{
     justify-content: center;
     border: 2px solid green;
     color: red;
-   
+
 }
 
-.table_banner{
+.table_banner {
     width: 100%;
     height: auto;
     padding: 5px 0;
 }
 
 
-.table_banner_box{
+.table_banner_box {
     width: 100%;
     height: 60px;
     background-color: antiquewhite;
@@ -181,7 +183,7 @@ header .box input{
 }
 
 
-.navbar_box1_1{
+.navbar_box1_1 {
     width: 10%;
     height: 100%;
     background-color: greenyellow;
@@ -191,7 +193,7 @@ header .box input{
     border: 2px solid green;
 }
 
-.navbar_box_1{
+.navbar_box_1 {
     width: 18%;
     height: 100%;
     background-color: rgba(192, 255, 252, 0.392);
@@ -199,7 +201,7 @@ header .box input{
     align-items: center;
     justify-content: center;
     border: 2px solid green;
-   
+
 }
 
 
@@ -214,7 +216,7 @@ header .box input{
 
 
 
-.banner{
+.banner {
     width: 100%;
     height: auto;
     padding: 50px 0;
@@ -225,12 +227,12 @@ header .box input{
     background-image: url(https://images.unsplash.com/photo-1546587348-d12660c30c50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80);
     background-size: cover;
     display: none;
-    
-   
-    
+
+
+
 }
 
-.login{
+.login {
     width: 360px;
     height: 500px;
     border-radius: 10px;
@@ -244,20 +246,20 @@ header .box input{
     background-color: #ffffff33;
     background-size: cover;
     background-image: url(https://images.unsplash.com/photo-1490650404312-a2175773bbf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    
-    
+
+
 }
 
-.login h1{
+.login h1 {
     color: #fff;
 }
 
-.login h2{
+.login h2 {
     color: #fff;
     text-shadow: 0 0 5px rgb(7, 77, 7);
 }
 
-.login input{
+.login input {
     width: 90%;
     height: 40px;
     background-color: transparent;
@@ -270,16 +272,16 @@ header .box input{
     color: #fff;
 }
 
-.login input::placeholder{
+.login input::placeholder {
     color: #fff;
 }
 
 
-.login input:focus{
+.login input:focus {
     background-color: rgba(0, 128, 0, 0.64);
 }
 
-.login .wee{
+.login .wee {
     width: 90%;
     height: 45px;
     background-image: linear-gradient(to top right, rgb(38, 224, 214), rgb(147, 229, 147), dodgerblue);
@@ -288,11 +290,11 @@ header .box input{
     color: #fff;
 }
 
-.wee:active{
-   background: aqua;
+.wee:active {
+    background: aqua;
 }
 
-.we{
+.we {
     width: 90%;
     height: 45px;
     background-color: rgba(112, 78, 205, 0.71);
@@ -300,11 +302,108 @@ header .box input{
     border-radius: 15px;
     color: #fff;
 }
-.we:active{
+
+.we:active {
     transition: .3s;
     background-color: blueviolet;
 }
 
+@media screen and (max-width:1300px) {
+    .table_box {
+        width: 90%;
+    }
+}
 
+@media screen and (max-width:1050px) {
+    .table_box {
+        width: 98%;
+    }
+}
 
+@media screen and (max-width:950px) {
+    .table_navbar {
+        height: 50px;
+    }
 
+    .table_banner_box {
+        height: 45px;
+    }
+
+    .table_navbar .navbar_box1>h3 {
+        font-size: 17px;
+    }
+
+    .table_navbar .navbar_box>h3 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .table_navbar {
+        height: 45px;
+    }
+    .table_banner_box {
+        height: 38px;
+    }
+
+    .table_navbar .navbar_box1>h3 {
+        font-size: 15px;
+    }
+
+    .table_navbar .navbar_box>h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .table_navbar {
+        height: 45px;
+    }
+
+    .table_navbar .navbar_box1>h3 {
+        font-size: 13px;
+    }
+
+    .table_navbar .navbar_box>h3 {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:650px) {
+     .navbar_box1_1>h4 {
+        font-size: 12.55px;
+    }
+
+     .navbar_box_1>h4 {
+        font-size: 12.55px;
+    }
+}
+@media screen and (max-width:485px) {
+    .table_banner_box {
+        height: 32px;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .table_box {
+        width: 99.6%;
+    }
+
+    .table_navbar {
+        height: 40px;
+    }
+
+    .table_navbar .navbar_box1>h3 {
+        font-size: 11.55px;
+    }
+
+    .table_navbar .navbar_box>h3 {
+        font-size: 11.55px;
+    }
+    .navbar_box1_1>h4 {
+        font-size: 11.7px;
+    }
+
+     .navbar_box_1>h4 {
+        font-size: 11.7px;
+    }
+}
