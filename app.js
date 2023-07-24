@@ -12,6 +12,7 @@ let navbar1 = document.querySelector(".navbar_box1_1")
 let h41 = document.querySelector(".navbar_box1_1>h4")
 let h4 = document.querySelector(".navbar_box_1>h4")
 let body = document.querySelector("body")
+let inputs = document.querySelectorAll(" .login input")
 
 
 
@@ -19,10 +20,10 @@ function qoshish() {
     table.style.display = ("none");
     banner.style.display = ("flex");
     navbar.style.display = ("none");
-   
+
 }
 
-function qaytish () {
+function qaytish() {
     table.style.display = ("flex");
     banner.style.display = ("none");
     navbar.style.display = ("flex");
@@ -36,6 +37,7 @@ let bx2 = document.querySelector("#bx2")
 let bx3 = document.querySelector("#bx3")
 let bx4 = document.querySelector("#bx4")
 let bx5 = document.querySelector("#bx5")
+let index = 0
 
 
 function ele() {
@@ -67,27 +69,34 @@ function ele() {
 
     div.appendChild(nav)
     nav.appendChild(soz)
-    
+    index = index + 1
+    soz.innerHTML = index
     div.appendChild(sox1)
     sox1.appendChild(soz1)
     soz1.innerText = bx1.value;
+    bx1.value = ""
     div.appendChild(sox2)
     sox2.appendChild(soz2)
     soz2.innerText = bx2.value;
+    bx2.value = ""
     div.appendChild(sox3)
     sox3.appendChild(soz3)
     soz3.innerText = bx3.value;
+    bx3.value = ""
     div.appendChild(sox4)
     sox4.appendChild(soz4)
     soz4.innerText = bx4.value;
+    bx4.value = ""
     div.appendChild(sox5)
     sox5.appendChild(soz5)
     soz5.innerText = bx5.value;
+    bx5.value = ""
 
 
 }
 
-   
+
+
 
 let logineEmail = "hokim"
 let loginePassword = "5800"
@@ -106,7 +115,7 @@ function login1() {
         Password.style.borderColor = "red"
         email.style.outLine = "red"
         Password.style.ouLline = "red"
-        
+
         alert("code xato")
     }
 
